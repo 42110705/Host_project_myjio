@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Jio Clone</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <img src="./img/logo2.png" alt="My Jio Logo" class="navbar-logo">
+
+            <a class="navbar-brand ms-3" href="#">My Jio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./plans.html">Plans</a></li>
+                    <li class="nav-item"><a class="nav-link" href="apps.html">Apps</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Contact.html">Contact Us</a></li>
+                    <li class="nav-item">
+                       <a href="./login.html"> <button class="btn btn-outline-light nav-btn" id="loginBtn">Login</button></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <section id="header-image" class="text-center">
+        <img src="./img/s.jpg" alt="Digital Life" class="header-img"loading="lazy">
+        <div class="header-text">
+            <h1>Digital Life for Every Indian</h1>
+            <p>Empowering millions with seamless connectivity and entertainment.</p>
+        </div>
+    </section>
+
+    <!-- Postpaid Plans Section -->
+    <div class="container mt-5 pt-5" id="postpaid-plans">
+        <h2 class="text-center" >Postpaid Plans</h2>
+        <div class="row text-center">
+            <div class="col-12 col-md-4">
+                <div class="plan-card">
+                    <img src="./img/po2.jpg" class="card-img-top" alt="Postpaid Plan 1">
+                    <div class="card-body">
+                        <h3>Individual Plan</h3>
+                        <h3>SIM</h3>
+                <p>₹549/month -75GB Data, Unlimited Calls</p>
+                <button type="button" class="btn btn-dark">Buy Plan</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="plan-card">
+                    <img src="./img/po3.jpg" class="card-img-top" alt="Postpaid Plan 2">
+                    <div class="card-body">
+                        <h3>Regular + 2 free Add-on SIM</h3>
+                <p>₹999/month - 150GB Data, Unlimited Calls</p>
+                <button type="button" class="btn btn-dark">Buy Plan</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="plan-card">
+                    <img src="./img/po1.jpg" class="card-img-top" alt="Postpaid Plan 3">
+                    <div class="card-body">
+                        <h3>Regular + 4 free Add-on SIM</h3>
+                        <p>₹1749/month - 320GBData, Unlimited Calls</p>
+                        <button type="button" class="btn btn-dark">Buy Plan</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Prepaid Plans Section -->
+    <div class="container mt-5" id="prepaid-plans">
+        <h2 class="text-center" >Prepaid Plans</h2>
+        <div class="row text-center">
+            <div class="col-12 col-md-4">
+                <div class="plan-card">
+                    <img src="./img/pre1.jpg" class="card-img-top" alt="Prepaid Plan 1">
+                    <div class="card-body">
+                        <h3>Monthly Pack</h3>
+                <p>₹299 - 1GB/day, Validity : 28 Days</p><p> Unlimited Calls</p>
+                <button type="button" class="btn btn-dark">Buy Plan</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="plan-card">
+                    <img src="./img/pre3.jpg" class="card-img-top" alt="Prepaid Plan 2">
+                    <div class="card-body">
+                        <h3>2 Months Pack</h3>
+                        <p>₹649 - 2GB/day, Validity : 56 Days</p><p> Unlimited 5G Plus Data & Calls</p>
+                        <button type="button" class="btn btn-dark">Buy Plan</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="plan-card">
+                    <img src="./img/pre2.jpg" class="card-img-top" alt="Prepaid Plan 3">
+                    <div class="card-body">
+                        <h3>3 Months Pack</h3>
+                        <p>₹859 - 1.5GB/day, Validity : 90 Days</p><p> Unlimited 5G Plus Data & Calls</p>
+                        <button type="button" class="btn btn-dark">Buy Plan</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Exclusive Offers Section -->
+    <div class="container mt-5" id="exclusive-offers">
+        <h2 class="text-center"">Exclusive Offers</h2>
+        <div class="row text-center">
+            <div class="col-12 col-md-4">
+                <div class="offer-card">
+                    <img src="./img/ex1.jpg" class="card-img-top" alt="Exclusive Offer 1">
+                    <div class="card-body">
+                        <h3>Entertainment Plan</h3>
+                        <p>₹3999/month, Unlimited upto 1024 Mbps</p><p>Upto 12+ OTT Apps</p>
+                        <a href="#" class="btn btn-danger">Grab Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="offer-card">
+                    <img src="./img/ex2.jpg" class="card-img-top" alt="Exclusive Offer 2">
+                    <div class="card-body">
+                        <h3>Standard Plan</h3>
+                <p>₹999/month, Unlimited upto 100 Mbps</p><p>Upto 4+ OTT Apps</p>
+                        <a href="#" class="btn btn-danger">Grab Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="offer-card">
+                    <img src="./img/ex3.jpg" class="card-img-top" alt="Exclusive Offer 3">
+                    <div class="card-body">
+                        <h3>Premier Plan</h3>
+                        <p>₹1599/month, Unlimited upto 300 Mbps</p><p>Upto 8+ OTT Apps</p>
+                        <a href="#" class="btn btn-danger">Grab Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--  Jio apps  -->
+<div class="container mt-5" id="exclusive-offers">
+    <h2 class="text-center"> Jio Services</h2>
+    <div class="row text-center">
+        <!-- JioTV -->
+        <div class="col-12 col-md-3">
+            <div class="offer-card">
+                <img src="./img/jiotv.jpg" class="card-img-top" alt="JioTV">
+                <div class="card-body">
+                    <h3>JioTV</h3>
+                    <p>Watch 650+ Live TV Channels across multiple languages.</p>
+                    <a href="https://www.jiotv.com/" class="btn btn-danger">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <!-- JioCinema -->
+        <div class="col-12 col-md-3">
+            <div class="offer-card">
+                <img src="./img/jiomo.jpg" class="card-img-top" alt="JioCinema">
+                <div class="card-body">
+                    <h3>JioCinema</h3>
+                    <p>Stream the latest movies, shows, and exclusive originals.</p>
+                    <a href="https://www.jiocinema.com/" class="btn btn-danger">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <!-- JioMart -->
+        <div class="col-12 col-md-3">
+            <div class="offer-card">
+                <img src="./img/jiomart.jpg" class="card-img-top" alt="JioMart">
+                <div class="card-body">
+                    <h3>JioMart</h3>
+                    <p>Shop groceries and essentials at unbeatable prices.</p>
+                    <a href="https://www.jiomart.com/" class="btn btn-danger">Shop Now</a>
+                </div>
+            </div>
+        </div>
+        <!-- JioSaavn -->
+        <div class="col-12 col-md-3">
+            <div class="offer-card">
+                <img src="./img/jiomu.jpg" class="card-img-top" alt="JioSaavn">
+                <div class="card-body">
+                    <h3>JioSaavn</h3>
+                    <p>Listen to millions of songs and podcasts anytime, anywhere.</p>
+                    <a href="https://www.jiosaavn.com/" class="btn btn-danger">Discover Music</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- sevices -->
+    <h1 style="text-align: center;">Seamless Services</h1>
+    <div class="grid-container" style="border-bottom: 40%;">
+        <div class="card" style=" background-image: url(./img/mobile-oct-2024.webp);">
+            <h3>Mobile</h3>
+            <p>True 5G & mobile services</p>
+        </div>
+        <div class="card" style=" background-image: url(./img/th\ \(1\).jpeg);">
+            <h3>Fiber & AirFiber</h3>
+            <p>Superfast & secure</p>
+        </div>
+        <div class="card" style=" background-image: url(./img/th.jpeg);">
+            <h3>Entertainment</h3>
+            <p>Music, TV, Games & more</p>
+        </div>
+        <div class="card" style=" background-image: url(./img/finance-03.jpg);">
+            <h3>Finance</h3>
+            <p>UPI, Bank, Loans, Insurance & more</p>
+        </div>
+        <div class="card" style=" background-image: url(./img/cloud.webp);">
+            <h3>Cloud</h3>
+            <p>Free storage</p>
+        </div>
+        <div class="card" style=" background-image: url(./img/shopping.jpg);">
+            <h3>Shopping</h3>
+            <p>Best offers and deals</p>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer" style="background-color: #000;">
+        <div class="social-icons">
+            <a href="https://www.facebook.com/" class="icon"><img src="./img/fac.png"></a>
+            <a href="https://www.google.com/" class="icon"><img src="./img/gog.png"></a>
+            <a href="https://www.instagram.com/" class="icon"><img src="./img/ins.png"></a>
+            <a href="https://x.com/" class="icon"><img src="./img/twi.png"></a>
+            <a href="https://www.youtube.com/" class="icon"><img src="./img/you.png"></a>
+        </div>
+        <ul class="footer-menu">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="plans.html">Plans</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+            <li><a href="#">Support</a></li>
+        </ul>
+        <p class="footer-note">Copyright ©2024; Designed by RAJA</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
